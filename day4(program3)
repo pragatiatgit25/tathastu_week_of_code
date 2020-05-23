@@ -1,0 +1,7 @@
+#day4
+#program3
+#new Dictionary 
+example_dict ={"a":13, "b":3, "c":6, "d":11} 
+# print the second largest 
+# value in the dictionary 
+print(list(sorted(example_dict.values()))[-2])
