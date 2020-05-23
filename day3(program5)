@@ -1,0 +1,14 @@
+#day3
+#program5
+size1=int(input("Enter the no. of elements in list1:"))
+print("Enter the elements in list1 one by one")
+list1=[]
+for i in range(size1):
+    list1.append(input())
+size2=int(input("Enter the no. of elements in list2:"))
+print("Enter the elements in list2 one by one")
+list2=[]
+for i in range(size2):
+    list2.append(input())
+intersectionlist=list(set(list1).intersection(set(list2)))
+print("the intersection of list1 and list2 is:",",".join(intersectionlist))        
