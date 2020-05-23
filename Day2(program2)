@@ -1,0 +1,5 @@
+#day2
+#program2
+number=float(input("Enter the number:"))
+squareroot= number**0.5
+print("Square root =",squareroot)
