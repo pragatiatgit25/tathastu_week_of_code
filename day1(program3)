@@ -1,0 +1,9 @@
+#day1
+#program3
+a=int(input("Enter the first no. as a:"))
+b=int(input("Enter the second no. as b:"))
+a=a+b
+b=a-b
+a=a-b
+print("a=",a)
+print("b=",b)
