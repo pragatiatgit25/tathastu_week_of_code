@@ -1,0 +1,8 @@
+#day4
+#program4
+sellingprice=float(input("Enter the SP of the product:"))
+costprice=float(input("Enter the CP of the product:"))
+profit=sellingprice-costprice
+NewSP=1.05*profit+costprice
+print("The profit from this SP is:",profit)
+print("To increase the profit by 5% the SP should be",NewSP)
