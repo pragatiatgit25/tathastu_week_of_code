@@ -1,0 +1,6 @@
+#day3
+#program1
+string=input("Enter a string:")
+reverse=string[::-1]
+print("The reverse of given string is:")
+print(reverse)
