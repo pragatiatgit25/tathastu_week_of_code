@@ -1,0 +1,17 @@
+#day1
+#program5
+player1=int(input("score made by player1 in 60 ball:"))
+player2=int(input("score made by player2 in 60 ball:"))
+player3=int(input("score made by player3 in 60 ball:"))
+strikerate1=player1*100/60
+strikerate2=player2*100/60
+strikerate3=player3*100/60
+print("strikerate of player1 is:",strikerate1)
+print("strikerate of player2 is:",strikerate2)
+print("strikerate of player3 is:",strikerate3)
+print("run scored by player1 after playing 60 more balls:",player1*2)
+print("run scored by player2 after playing 60 more balls:",player2*2)
+print("run scored by player3 after playing 60 more balls:",player3*3)
+print("max no. of sixes player1 could hit is:",player1//6)
+print("max no. of sixes player2 could hit is:",player2//6)
+print("max no. of sixes player3 could hit is:",player3//6)
